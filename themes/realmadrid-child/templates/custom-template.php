@@ -30,14 +30,14 @@
                 }
                 
                 ?>
-                <h2> <?php the_title()?> </h2>
+                <h2 class ="customH"> <?php the_title()?> </h2>
                 <br>
                 <?php
                 the_excerpt();
                 ?>
                 <br>
                 <?php
-                echo '<a href="' . get_permalink() . '">Read More</a>';?>
+                echo '<a class= "cA" href="' . get_permalink() . '">Read More</a>';?>
                 <br>
                 <?php
             }

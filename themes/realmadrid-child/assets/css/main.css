@@ -1,0 +1,14 @@
+.site-main .cA {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.customH {
+    font-size: 80px;
+    color: aqua;
+    text-align: center;
+}
