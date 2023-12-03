@@ -26,9 +26,7 @@
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 if (has_post_thumbnail()) {
-                    ?>
-                    <img class="myThmub"> <?php the_post_thumbnail()?> </img>
-                    <?php
+                    the_post_thumbnail();
                 }
                 
                 ?>

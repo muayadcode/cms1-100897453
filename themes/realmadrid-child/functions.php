@@ -11,10 +11,6 @@
 
 add_action( 'wp_enqueue_scripts', 'realmadridchild_wp_enqueue_scripts' );
 function realmadridchild_wp_enqueue_scripts() {
-	wp_enqueue_style(
-        'realmadridchild-style',
-		get_stylesheet_uri(),
-		array( 'twenty-twenty-one-style' ),
-		wp_get_theme()->get( 'Version' ) // This only works if you have Version defined in the style header.
-	);
+	wp_enqueue_style('main', get_stylesheet_directory_uri().'/assets/css/main.css', array('twenty-twenty-one-style' , 'twenty-twenty-one-print-style', 'bootstrap'), wp_get_theme()->get('Version'));
+	wp_enqueue_style('bootstrap', get_stylesheet_directory_uri().'/assets/css/vendor/bootstrap.css', array(), '5.3.2', wp_get_theme()->get('Version'));
 }
