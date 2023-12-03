@@ -26,10 +26,13 @@
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 if (has_post_thumbnail()) {
-                    the_post_thumbnail();
+                    ?>
+                    <img class="myThmub"> <?php the_post_thumbnail()?> </img>
+                    <?php
                 }
-                the_title();
+                
                 ?>
+                <h2> <?php the_title()?> </h2>
                 <br>
                 <?php
                 the_excerpt();
