@@ -5,9 +5,8 @@
     padding: 20px;
     color: rgb(142, 221, 255);
     margin-bottom: 40px;
+
 }
-
-
 
 .custom-class {
     display: block;
@@ -19,9 +18,19 @@
 
 .customH {
     font-size: 80px;
-    color: rgb(127, 199, 199);
+    color: rgb(156, 211, 211);
     text-align: center;
     margin: 0 auto;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .myP {
