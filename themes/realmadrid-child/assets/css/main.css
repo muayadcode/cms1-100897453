@@ -3,12 +3,23 @@
     justify-content: center;
     margin: 0 auto;
     padding: 20px;
+    color: rgb(142, 221, 255);
 }
 
 
 
 .customH {
     font-size: 80px;
-    color: aqua;
+    color: rgb(127, 199, 199);
     text-align: center;
+    margin: 0 auto;
+}
+
+.myP {
+
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 40px;
+    font-family: sans-serif;
 }

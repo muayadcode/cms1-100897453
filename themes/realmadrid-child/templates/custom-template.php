@@ -31,14 +31,14 @@
                 
                 ?>
                 <h2 class ="customH"> <?php the_title()?> </h2>
-                <br>
+               
                 <?php
-                the_excerpt();
+                echo '<p class = myP>', get_the_excerpt(), '</p>';
                 ?>
-                <br>
+                
                 <?php
                 echo '<a class= "cA" href="' . get_permalink() . '">Read More</a>';?>
-                <br>
+                
                 <?php
             }
             wp_reset_postdata();
