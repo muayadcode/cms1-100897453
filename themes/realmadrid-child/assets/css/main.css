@@ -13,6 +13,8 @@
     margin: 0 auto;
     width: 70%;
     margin-bottom: 40px;
+    border-radius: 5px;
+    border: 2px solid lightblue;
 }
 
 
