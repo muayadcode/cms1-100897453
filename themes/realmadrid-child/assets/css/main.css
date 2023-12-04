@@ -7,10 +7,12 @@
     margin-bottom: 40px;
 }
 
+
+
 .custom-class {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     margin-bottom: 40px;
 }
 
@@ -29,4 +31,17 @@
     width: 50%;
     margin-top: 40px;
     font-family: sans-serif;
+}
+
+#page.site {
+    background-color: rgb(34, 57, 91);
+}
+
+.primary-menu-container a:hover {
+    color: rgb(154, 194, 253);
+    background-color: none;
+}
+
+#site-navigation:hover {
+    background-color: rgb(34, 57, 91);
 }
