@@ -48,11 +48,36 @@ h1 {
     background-color: rgb(34, 57, 91);
 }
 
+.primary-menu-container a {
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 22px;
+}
+
 .primary-menu-container a:hover {
     color: rgb(154, 194, 253);
     background-color: none;
+    text-decoration: underline;
+
 }
 
 #site-navigation:hover {
     background-color: rgb(34, 57, 91);
+}
+
+.entry-title {
+    color: rgb(70, 212, 212);
+    font-family: fantasy;
+    text-align: center;
+}
+
+.entry-footer {
+    color: beige;
+    text-align: center;
+
+}
+
+.entry-content p {
+    text-align: center;
+    font-size: 23px;
 }
