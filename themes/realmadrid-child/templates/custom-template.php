@@ -26,7 +26,7 @@
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 if (has_post_thumbnail()) {
-                    the_post_thumbnail();
+                    echo '<img class="custom-class" src="' . esc_url(get_the_post_thumbnail_url()) . '" alt="' . esc_attr(get_the_title()) . '">';
                 }
                 
                 ?>

@@ -4,8 +4,15 @@
     margin: 0 auto;
     padding: 20px;
     color: rgb(142, 221, 255);
+    margin-bottom: 40px;
 }
 
+.custom-class {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
 
 
 .customH {
