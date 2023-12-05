@@ -10,7 +10,7 @@
  get_header();
  
  /* Start the Loop */
-    if (is_front_page() || is_page('about')) {
+    if (is_front_page() || is_page('about-us')) {
         $args = array(
             'post_type' => 'post',
             'post_status' => 'publish',
