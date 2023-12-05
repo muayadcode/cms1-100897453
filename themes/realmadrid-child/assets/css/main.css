@@ -78,6 +78,7 @@ h1 {
 }
 
 .entry-content p {
-    text-align: center;
+    display: block;
     font-size: 23px;
+    margin: 0 auto;
 }
